@@ -11,20 +11,11 @@
 body{
     margin:0;
     font-family:system-ui,Arial,sans-serif;
+    background:var(--dark);
     color:white;
-
-    background:
-        linear-gradient(
-            rgba(0,0,0,.35),
-            rgba(0,0,0,.35)
-        ),
-        url('../img/fondo_santiago.png');
-
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-    background-repeat:no-repeat;
 }
+
+/* CABECERA */
 
 header{
     position:fixed;
@@ -48,6 +39,8 @@ nav a{
     font-weight:700;
 }
 
+/* PORTADA */
+
 .hero{
     min-height:100vh;
     background:
@@ -59,6 +52,7 @@ nav a{
 
     background-size:cover;
     background-position:center;
+
     display:flex;
     align-items:center;
     justify-content:center;
@@ -86,6 +80,8 @@ nav a{
     padding:120px 20px 70px 20px;
 }
 
+/* TARJETAS */
+
 .grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
@@ -103,11 +99,7 @@ nav a{
     border-radius:10px;
 }
 
-footer{
-    background:#050908;
-    padding:30px;
-    text-align:center;
-}
+/* GALERÍA DE VÍDEOS */
 
 .videos-grid{
     display:grid;
@@ -132,14 +124,87 @@ footer{
     box-shadow:0 4px 15px rgba(0,0,0,.35);
 }
 
+/* FOOTER */
+
+footer{
+    background:#050908;
+    padding:30px;
+    text-align:center;
+}
+
+/* ========================= */
+/* FONDOS POR SECCIÓN */
+/* ========================= */
+
+.primitivo-page,
+.plata-page,
+.extras-page,
+.sobremi-page{
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+/* CAMINO PRIMITIVO */
+
+.primitivo-page{
+    background:
+        linear-gradient(
+            rgba(0,0,0,.35),
+            rgba(0,0,0,.35)
+        ),
+        url('../img/fondo_primitivo.jpg');
+}
+
+/* VÍA DE LA PLATA */
+
+.plata-page{
+    background:
+        linear-gradient(
+            rgba(0,0,0,.35),
+            rgba(0,0,0,.35)
+        ),
+        url('../img/fondo_plata.jpg');
+}
+
+/* EXTRAS */
+
+.extras-page{
+    background:
+        linear-gradient(
+            rgba(0,0,0,.35),
+            rgba(0,0,0,.35)
+        ),
+        url('../img/fondo_extras.jpg');
+}
+
+/* SOBRE MÍ */
+
+.sobremi-page{
+    background:
+        linear-gradient(
+            rgba(0,0,0,.35),
+            rgba(0,0,0,.35)
+        ),
+        url('../img/fondo_sobremi.jpg');
+}
+
+/* RESPONSIVE */
+
 @media(max-width:900px){
+
     .videos-grid{
         grid-template-columns:repeat(2,1fr);
     }
+
 }
 
 @media(max-width:600px){
+
     .videos-grid{
         grid-template-columns:1fr;
     }
+
 }
