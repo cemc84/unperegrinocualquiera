@@ -156,6 +156,8 @@ footer{
             rgba(0,0,0,.15)
         ),
         url('../img/fondoPrimitivo.png');
+    background-size:cover;
+    background-position:center;
 }
 
 /* VÍA DE LA PLATA */
