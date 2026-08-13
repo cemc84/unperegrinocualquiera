@@ -156,8 +156,8 @@ footer{
             rgba(0,0,0,.15)
         ),
         url('../img/fondoPrimitivo.png');
-    background-size:cover;
-    background-position:center;
+        background-size:cover;
+        background-position:center;
 }
 
 /* VÍA DE LA PLATA */
@@ -168,7 +168,9 @@ footer{
             rgba(0,0,0,.35),
             rgba(0,0,0,.35)
         ),
-        url('../img/fondo_plata.jpg');
+        url('../img/fondoViaPlata.png');
+        background-size:cover;
+        background-position:center;
 }
 
 /* EXTRAS */
