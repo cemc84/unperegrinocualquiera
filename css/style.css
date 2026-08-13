@@ -13,3 +13,37 @@ nav a{color:white;text-decoration:none;font-weight:700}
 .card{background:#13211c;padding:25px;border-radius:16px}
 .thumb{width:100%;border-radius:10px}
 footer{background:#050908;padding:30px;text-align:center}
+.videos-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin:40px 0;
+}
+
+.video-item{
+    display:block;
+    transition:transform .2s ease;
+}
+
+.video-item:hover{
+    transform:scale(1.03);
+}
+
+.video-item img{
+    width:100%;
+    display:block;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,.35);
+}
+
+@media(max-width:900px){
+    .videos-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:600px){
+    .videos-grid{
+        grid-template-columns:1fr;
+    }
+}
