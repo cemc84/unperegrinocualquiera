@@ -152,8 +152,8 @@ footer{
 .primitivo-page{
     background:
         linear-gradient(
-            rgba(255,255,255,.65),
-            rgba(255,255,255,.65)
+            rgba(255,255,255,.50),
+            rgba(255,255,255,.50)
         ),
         url('../img/fondoPrimitivo.png');
         background-size:cover;
