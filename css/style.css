@@ -165,8 +165,8 @@ footer{
 .plata-page{
     background:
         linear-gradient(
-            rgba(255,255,255,.85),
-            rgba(255,255,255,.85)
+            rgba(255,255,255,.50),
+            rgba(255,255,255,.50)
         ),
         url('../img/fondoViaPlata.png');
         background-size:cover;
