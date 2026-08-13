@@ -1,18 +1,114 @@
+:root{
+    --green:#0f3b2e;
+    --gold:#d4af37;
+    --dark:#08110e;
+}
 
-:root{--green:#0f3b2e;--gold:#d4af37;--dark:#08110e;}
-*{box-sizing:border-box}
-body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--dark);color:white}
-header{position:fixed;top:0;width:100%;background:rgba(0,0,0,.85);z-index:100}
-nav{display:flex;justify-content:center;gap:30px;padding:18px;flex-wrap:wrap}
-nav a{color:white;text-decoration:none;font-weight:700}
-.hero{min-height:100vh;background:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),url('../img/fondo_santiago.png');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;text-align:center}
-.logo{width:260px;max-width:85vw}
-.btn{background:var(--gold);color:black;padding:14px 24px;border-radius:10px;text-decoration:none;font-weight:bold;display:inline-block}
-.wrap{max-width:1200px;margin:auto;padding:70px 20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px}
-.card{background:#13211c;padding:25px;border-radius:16px}
-.thumb{width:100%;border-radius:10px}
-footer{background:#050908;padding:30px;text-align:center}
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:system-ui,Arial,sans-serif;
+    color:white;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,.35),
+            rgba(0,0,0,.35)
+        ),
+        url('../img/fondo_santiago.png');
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(0,0,0,.85);
+    z-index:100;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:18px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.hero{
+    min-height:100vh;
+    background:
+        linear-gradient(
+            rgba(0,0,0,.35),
+            rgba(0,0,0,.35)
+        ),
+        url('../img/fondo_santiago.png');
+
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.logo{
+    width:260px;
+    max-width:85vw;
+}
+
+.btn{
+    background:var(--gold);
+    color:black;
+    padding:14px 24px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.wrap{
+    max-width:1200px;
+    margin:auto;
+    padding:120px 20px 70px 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#13211c;
+    padding:25px;
+    border-radius:16px;
+}
+
+.thumb{
+    width:100%;
+    border-radius:10px;
+}
+
+footer{
+    background:#050908;
+    padding:30px;
+    text-align:center;
+}
+
 .videos-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
