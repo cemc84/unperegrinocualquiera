@@ -182,6 +182,8 @@ footer{
             rgba(0,0,0,.50)
         ),
         url('../img/fondo_extras.png');
+        background-size:cover;
+        background-position:center;
 }
 
 /* SOBRE MÍ */
