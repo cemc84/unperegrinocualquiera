@@ -178,8 +178,8 @@ footer{
 .extras-page{
     background:
         linear-gradient(
-            rgba(0,0,0,.50),
-            rgba(0,0,0,.50)
+            rgba(255,255,255,.50),
+            rgba(255,255,255,.50)
         ),
         url('../img/fondo_extras.png');
         background-size:cover;
