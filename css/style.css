@@ -178,10 +178,10 @@ footer{
 .extras-page{
     background:
         linear-gradient(
-            rgba(0,0,0,.35),
-            rgba(0,0,0,.35)
+            rgba(0,0,0,.50),
+            rgba(0,0,0,.50)
         ),
-        url('../img/fondo_extras.jpg');
+        url('../img/fondo_extras.png');
 }
 
 /* SOBRE MÍ */
