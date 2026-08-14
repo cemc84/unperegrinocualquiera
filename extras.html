@@ -1,4 +1,24 @@
-<html><head><link rel='stylesheet' href='css/style.css'></head><body <body class="extras-page">><header><nav>
+<html><head>
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel='stylesheet' href='css/style.css'>
+<style>
+.videos-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+margin:40px 0;
+}
+.video-item iframe{
+width:100%;
+aspect-ratio:16/9;
+border:none;
+border-radius:12px;
+background:#000;
+}
+@media(max-width:900px){.videos-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:600px){.videos-grid{grid-template-columns:1fr;}}
+</style>
+</head><body class="extras-page"><header><nav>
 <a href="index.html">Inicio</a>
 <a href="primitivo.html">Camino Primitivo</a>
 <a href="plata.html">Vía de la Plata</a>
